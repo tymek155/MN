@@ -1,4 +1,5 @@
 import math
+
 def file_read(nazwa, tab1, tab2):
     with open(nazwa, "r") as odczyt:
         ilosc = int(odczyt.readline())
